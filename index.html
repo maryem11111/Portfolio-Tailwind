@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariem's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!--Header-->
+    <header class="bg-white shadow-lg">
+   
+        <div class="container mx-auto px-6 py-4 flex justify-between items center">
+            <h1 class="text-2xl font-bold text-black-600">Portfolio</h1>
+            <nav class="flex space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-black">Acceuil</a>
+                <a href="#projets" class="text-gray-600 hover:text-black">Projets</a>
+                <a href="#contact" class="text-gray-600 hover:text-black">contact</a>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="relative bg-cover bg-center h-screen" style="background-image:url('./flat-lay-workstation-with-copy-space-tablet.jpg') ;">
+        <div class="absolute inset-0  flex ">
+            <div class= "text-white m-[50px]">
+                <h2 class=" text-start text-4xl md:text-6xl font-bold mb-4">Bonjour, Je suis Marzougui Mariem</h2>
+                <p class=" text-start text-xl md:text-xl">Jeune diplômée en ingénierie informatique, passionnée par les nouvelles technologies et motivée par les défis.
+                    <br> Mes expériences académiques m’ont permis de développer des compétences techniques solides et un esprit collaboratif.
+                    <br>  Je cherche à débuter ma carrière dans une entreprise innovante pour contribuer et évoluer.</p>
+                    <div class="flex justify-center mt-4 items-center">
+                    <button  class="px-6 py-2 bg-white text-black font-semibold rounded-lg shadow-lg hover:bg-gray transition">En savoir plus</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills section-->
+    <section id="skill" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold text-center mb-8">Mes compétences</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-stone-200 shadow-lg rounded-lg text-center">
+                    <h4 class="text-xl  font-bold mb-4">Languages de programmation</h4>
+                    <p>Java, Python, HTML,CSS, Java</p>
+                </div>
+                <div class="p-6 bg-stone-200 shadow-lg rounded-lg text-center">
+                    <h4 class="text-xl  font-bold mb-4">Base de données</h4>
+                    <p>MySQL</p>
+                </div>
+                <div class="p-6 bg-stone-200 shadow-lg rounded-lg text-center">
+                    <h4 class="text-xl  font-bold mb-4">Systèmes d'exploitation</h4>
+                    <p>Windows, Linux</p>
+                </div>
+                <div class="p-6 bg-stone-200 shadow-lg rounded-lg text-center">
+                    <h4 class="text-xl  font-bold mb-4">Outils de développement</h4>
+                    <p> Eclipse, Spring MVC, Bootstrap, phpMyAdmin, VS
+                        <br> Code, Android Studio, Jupyter, Arduino, Vivado,
+                        <br> STM32CubeIDE, UML, LateX
+                    </p>
+                </div>
+                <div class="p-6 bg-stone-200 shadow-lg rounded-lg text-center">
+                    <h4 class="text-xl  font-bold mb-4"> Les cartes électroniques</h4>
+                    <p> Arduino, STM32, ESP32, FPGA, Raspberry Pi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Projets section-->
+    <section id="projects" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold text-center mb-8">Mes Projets</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="../Portfolio TailWind/weekly-plan-clipboard-cup-coffee-marble-backdrop.jpg" alt="projet1">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2">Mini Projet Mobile "To Do List"</h4>
+                        <p> Développement d'une application qui sert à
+                            organiser les tâches</p>
+                        <p class="text-xl font-semibold mb-2"> Android Studio ,JAVA/XML ,SQL</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="../Portfolio TailWind/femme-aveugle-marchant-aide-sa-canne_23-2149261362.jpg" alt="projet2">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2"> Baguette intelligente pour Aveugle</h4>
+                        <p> Conception et developpement d'une baguette intelligente destinee à aider les personnes
+                            aveugle dans leur navigation quotidienne</p>
+                        <p class="text-xl font-semibold mb-2"> Carte Arduino, Capteur ultrason, Capteur d'obstacles</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="../Portfolio TailWind/928.jpg" alt="projet3">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2">Projet fin d'études</h4>
+                        <p>Conception et développement d'une application de suivi d'assiduité des élèves dans un
+                            établissement scolaires par la technologie RFID.</p>
+                        <p class="text-xl font-semibold mb-2"> Spring MVC , Bootstrap, MySQL, Carte Raspberry Pi,
+                            eclipse</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--extra-prof activities section-->
+    <section id="activity" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-center mb-8"> Activités extra-professionnelles</h2>
+            <ul class="space-y-4">
+                <li>
+                    <a href="#" class="flex justify-between items-center bg-white p-4 shadow-md rounded-lg">
+                        <span class="text-lg"> Google Developer Student Clubs - ISI Mahdia</span>
+                        <span class="text-sm text-gray-500"> 10/2022 – 09/2023</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex justify-between items-center bg-white p-4 shadow-md rounded-lg">
+                        <span class="text-lg"> Tunivision ISI Mahdia </span>
+                        <span class="text-sm text-gray-500"> 02/2022 – 05/2023</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Contact Form-->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold text-center mb-8">Contactez-moi</h3>
+            <form class="max-w-lg mx-auto bg-gray-50 shadow-lg p-6 rounded-lg">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="name">Nom</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg" placeholder="Votre Nom">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="email">E-mail</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg"
+                        placeholder="Votre E-mail">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
+                    <textarea id="message" class="w-full px-4 py-2 border rounded-lg" rows="4"
+                        placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gray-600 text-white py-2 rounded-lg font-bold">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-white-800 text-black-200 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <p class="text-sm">&copy; 2024 Mariem's portfolio. Tous droits réservés. </p>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
